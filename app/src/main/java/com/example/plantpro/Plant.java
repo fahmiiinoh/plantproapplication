@@ -1,7 +1,14 @@
 package com.example.plantpro;
 
-public class Plant {
+import com.google.firebase.database.Exclude;
 
+import java.io.Serializable;
+
+public class Plant implements Serializable {
+
+
+@Exclude
+    private String key;
     private String PlantCategory;
     private String PlantName;
     private String PlantIntro;
@@ -47,4 +54,13 @@ public class Plant {
     public void setPlantTip(String plantTip) {
         PlantTip = plantTip;
     }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 }
+
