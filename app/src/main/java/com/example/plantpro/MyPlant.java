@@ -3,8 +3,10 @@ package com.example.plantpro;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MyPlant extends AppCompatActivity {
 
@@ -16,6 +18,15 @@ public class MyPlant extends AppCompatActivity {
         setContentView(R.layout.activity_my_plant);
 
         drawerLayout = findViewById(R.id.drawer_layout);
+        Button btn_addplant = findViewById(R.id.btn_addplantuser);
+
+        btn_addplant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyPlant.this,AddPlantUser.class);
+                startActivity(intent);
+            }
+        });
     }
     public void ClickMenu(View view){
 

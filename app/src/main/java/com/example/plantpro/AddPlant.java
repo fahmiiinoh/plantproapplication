@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.plantpro.models.Plant;
+
 import java.util.HashMap;
 
 public class AddPlant extends AppCompatActivity {
@@ -65,6 +67,7 @@ public class AddPlant extends AppCompatActivity {
                 dao.add(plt).addOnSuccessListener(suc ->
                 {
                     Toast.makeText(this, "Plant Record Inserted!", Toast.LENGTH_SHORT).show();
+                    edit_plantname.getText().clear();
                 }).addOnFailureListener(er -> {
 
                     Toast.makeText(this, "" + er.getMessage(), Toast.LENGTH_SHORT).show();

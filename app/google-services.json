@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "194519171211-02ke4biob7f093qk8ib6kf10kkg1v62p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plantpro",
+            "certificate_hash": "2db6655aafafef96c21fa6f838aa792fb354a7a1"
+          }
+        },
+        {
           "client_id": "194519171211-3lfjd5bvu7eshn1c9o766ojg84djemjk.apps.googleusercontent.com",
           "client_type": 3
         }

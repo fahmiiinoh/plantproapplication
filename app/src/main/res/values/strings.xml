@@ -12,6 +12,11 @@
         <item>Outdoor Plant</item>
     </string-array>
 
+    <string-array name="plantCategoryUser">
+        <item>Indoor Plant</item>
+        <item>Outdoor Plant</item>
+    </string-array>
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

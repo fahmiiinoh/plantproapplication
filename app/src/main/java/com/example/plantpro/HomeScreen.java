@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,15 @@ public class HomeScreen extends AppCompatActivity {
 
         //Assign Variable
         drawerLayout = findViewById(R.id.drawer_layout);
+        Button btn_plantstatus = findViewById(R.id.btn_plantstatus);
+
+        btn_plantstatus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeScreen.this,PlantStatus.class);
+                startActivity(intent);
+            }
+        });
 
     }
     public void ClickMenu(View view){
