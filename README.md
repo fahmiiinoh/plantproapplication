@@ -7,7 +7,7 @@
 - Node MCU Wifi Module
 - Humidity Sensor
 
-- This project is integrated with Node Mcu ESP Wifi Module and Humidity Sensor to monitor the humidity of the plant soil. This is a simple idea of mobile apps to track and monitor plant most factors of growth.
+This project is integrated with Node Mcu ESP Wifi Module and Humidity Sensor to monitor the humidity of the plant soil. This is a simple idea of mobile apps to track and monitor plant most factors of growth.
 
 Sincerely,
 FN.
